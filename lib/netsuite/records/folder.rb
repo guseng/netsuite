@@ -7,7 +7,7 @@ module NetSuite
       include Support::Actions
       include Namespaces::FileCabinet
 
-      actions :add
+      actions :add, :search
 
       fields :name
 
